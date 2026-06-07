@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Sócio Adm</title>
+    <script src="ProjetoCultura.js"></script>
+    <link rel="stylesheet" href="ProjetoCultura.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="Logo da empresa">
+            </div>
+            <div>
+                <h2>Gávea Empreendimentos Culturais</h2>
+                <p>Painel do Sócio Administrador</p>
+            </div>
+        </div>
+
+        <button class="btn-sair" onclick="logout()">Logout</button>
+    </header>
+    
+    <main>
+        <h1>Bem-vindo!!</h1>
+        <p>Selecione uma das opções abaixo (aqui só o gerenciar editais vai funcionar :P)</p>
+        <div class = "container">
+            <div class = "card" onclick="abrirEmConstr()">
+                <div class="icone 1">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Projetos</h2>
+            </div>
+
+            <div class ="card" onclick="abrirEmConstr()">
+                <div class="icone 2">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Usuários</h2>
+            </div>
+
+            <div class ="card" onclick="abrirEmConstr()">
+                <div class="icone 3">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Finanças</h2>
+            </div>
+
+            <div class ="card" onclick="GerenciarEditais()">
+                <div class="icone 4">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Editais</h2>
+            </div>
+
+            <div class ="card" onclick="abrirEmConstr()">
+                <div class="icone 5">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Leis de Incentivo</h2>
+            </div> 
+            <div class ="card" onclick="abrirEmConstr()">
+                <div class="icone 6">
+                    <img src="imagens/editais.png" alt="">
+                </div>
+                <h2>Gerenciar Categorias</h2>
+            </div> 
+        </div>
+    </main>
+</body>
+</html>
